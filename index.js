@@ -36,7 +36,7 @@ let users = [];
 
     function signin() {
       if (isDisabled) {
-        console.log("Password field is disabled due to 5 incorrect attempts. Please wait for 1 minute.");
+        console.log("Password field is disabled due to 5 incorrect attempts. Please wait for 10 minute.");
         return;
       }
 
